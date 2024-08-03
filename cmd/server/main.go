@@ -43,9 +43,8 @@ func main() {
 		User:   usecase.NewUser(ur, sor, sr),
 	}
 
-	// TODO реализовать веб-сервис
-
 	r := httpGateway.NewServer(useCases)
+
 	if err := r.Run(ctx); err != nil && !errors.Is(err, http.ErrServerClosed) {
 		log.Printf("error during server shutdown: %v", err)
 	}

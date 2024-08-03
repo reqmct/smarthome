@@ -9,9 +9,10 @@ import (
 )
 
 type Server struct {
-	host   string
-	port   uint16
-	router *gin.Engine
+	host        string
+	port        uint16
+	metricsPort uint16
+	router      *gin.Engine
 }
 
 type UseCases struct {
