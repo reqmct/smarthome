@@ -10,7 +10,8 @@
 
 ## Запуск приложения
 
-Для запуска приложения требуется [переменная окружения](https://gobyexample.com/environment-variables) `DATABASE_URL` - URL подключения к базе (`postgres://postgres:postgres@127.0.0.1:5432/db?sslmode=disable`).
+1. Для запуска приложения требуется [переменная окружения](https://gobyexample.com/environment-variables) `DATABASE_URL` - URL подключения к базе (`postgres://postgres:postgres@127.0.0.1:5432/db?sslmode=disable`).
+2. Запуск приложения в контейнере можно выполнить с помощью docker-compose (файл в корне проекта).
 
 ## Запуск тестов
 
