@@ -1,3 +1,7 @@
+## smarthome
+
+Проект представляет собой систему умного дома, включающую автоматизированное управление устройствами, мониторинг состояния и регистрацию событий. Он позволяет пользователям контролировать и отслеживать работу датчиков и устройств, управлять пользователями и получать историю событий. 
+
 ## Подготовка окружения
 
 1. Установить docker ([windows](https://docs.docker.com/desktop/install/windows-install/), [Mac](https://docs.docker.com/desktop/install/mac-install/), [Linux](https://docs.docker.com/desktop/install/linux-install/))
